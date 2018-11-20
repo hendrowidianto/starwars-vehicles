@@ -30,3 +30,17 @@
     transform: rotate(360deg);
   }
 }
+
+@media all and (min-width: 480px) {
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
